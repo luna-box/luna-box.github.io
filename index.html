@@ -21,85 +21,44 @@
   <link rel="stylesheet" href="https://docsify.catppuccin.com/macchiato/sapphire.css" />
   <link rel="stylesheet" href="/static/css/styles.css">
   <style>
-    /* Solo configuración de fuentes, nada más */
+    /* Fuentes suaves pero simples */
     body,
     html,
     .markdown-section,
     .sidebar,
     .app-nav,
     .search {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      font-weight: 400;
+      font-family: 'Inter', sans-serif;
       -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      text-rendering: optimizeLegibility;
     }
 
-    /* Títulos más elegantes */
+    /* Títulos normales */
     .markdown-section h1,
     .markdown-section h2,
     .markdown-section h3,
-    .markdown-section h4,
-    .markdown-section h5,
-    .markdown-section h6,
-    .sidebar-nav li a,
-    .app-nav a,
     .cover h1 {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 600;
-      letter-spacing: -0.01em;
     }
 
-    /* Código con tipografía mono hermosa */
+    /* Código mono */
     code,
-    pre,
-    .markdown-section pre,
-    .markdown-section code,
-    .token,
-    .prism-code,
-    .language-* {
-      font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Source Code Pro', monospace;
-      font-weight: 450;
+    pre {
+      font-family: 'JetBrains Mono', monospace;
       font-size: 0.9em;
-      letter-spacing: -0.002em;
     }
 
-    /* Sidebar con fuente más suave */
-    .sidebar-nav li a {
-      font-weight: 450;
-      opacity: 0.85;
-      transition: opacity 0.2s ease;
-    }
-
-    .sidebar-nav li a:hover {
-      opacity: 1;
-    }
-
-    /* Texto general más suave */
-    .markdown-section p,
-    .markdown-section li {
-      font-weight: 400;
-      line-height: 1.7;
-      letter-spacing: -0.002em;
-    }
-
-    /* Cover page título */
+    /* Cover page título - simple y visible */
     .cover h1 {
+      color: #f38ba8;
       font-weight: 800;
-      letter-spacing: -0.03em;
-      color: #f38ba8 !important;
-      /* Rosa/Coral de Catppuccin */
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     }
 
     .cover.show {
-      font-weight: 800;
-      letter-spacing: -0.03em;
-      background: linear-gradient(135deg, #fff 0%, #f38ba8 100%) !important;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      background-color: #1d202f !important;
     }
+
+    /* Nada más. Sin gradientes, sin blures, sin texto transparente */
   </style>
 </head>
 
@@ -172,6 +131,13 @@
   <!-- Plugin y estilos de docsify-giscus -->
   <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css">
   <script src="https://unpkg.com/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
+
+  <!-- Github -->
+  <script src="/static/js/github.js"></script>
+
+  <!-- Copy -->
+  <script src="/static/js/copy.js"></script>
+
 </body>
 
 </html>
