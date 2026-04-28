@@ -346,7 +346,7 @@
       <div class="install-section">
         <div class="install-label">⚡ FAST INSTALL</div>
         <div class="install-command">
-          <code id="install-code">curl -fsSL https://lunabox.zip/install.sh | bash</code>
+          <code id="install-code">curl -fsSL https://luna-box.github.io/install.sh | bash</code>
           <button class="copy-btn" onclick="copyInstallCommand()">💾</button>
         </div>
       </div>
@@ -362,8 +362,8 @@
         <a href="https://github.com/luna-box/luna" class="btn-github">
           <span>🐱 GitHub</span> <span>→</span>
         </a>
-        <a href="https://github.com/sponsors/wux4an" class="btn-sponsor">
-          <span>❤️ Sponsor</span>
+        <a href="https://ko-fi.com/wux4an" class="btn-sponsor">
+          <span>❤️ Donate</span>
         </a>
       </div>
     </div>
