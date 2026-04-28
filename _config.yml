@@ -1,1 +1,9 @@
-include: ["./docs/_*.md"]
+include:
+  - docs
+  - static
+  - assets
+  - .nojekyll
+
+exclude: []
+
+markdown: plaintext
